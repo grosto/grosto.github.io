@@ -1,0 +1,85 @@
+.about {
+  .container {
+    padding-top: 60px;
+    background: $white;
+  }
+}
+
+.hello {
+  display: inline-block;
+  font-size: 15px;
+  background: $main-blue;
+  color: $white;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 30px;
+  color: $black;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $line-grey;
+
+  h4,
+  h5 {
+    font-weight: 300;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+}
+
+.contact {
+  display: table;
+  color: $text-grey;
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+.single-contact {
+  display: table-row;
+
+  .text-bold {
+    color: $blackish;
+  }
+
+  span {
+    display: table-cell;
+    padding: 0 30px 5px 0;
+  }
+}
+
+.social {
+  background: $main-blue;
+  text-align: center;
+  margin-right: -15px;
+  margin-left: -15px;
+  font-size: 20px;
+
+  ul {
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: 27px 20px;
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      font-size: 27px;
+    }
+  }
+}

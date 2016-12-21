@@ -1,0 +1,54 @@
+.education {
+  margin: 0 auto;
+  text-align: center;
+
+  .education-block {
+    width: 300px;
+    margin: 0 auto;
+    &:first-child {
+      margin-bottom: 30px;
+    }
+  }
+
+
+
+  .top-block {
+    background: $main-blue;
+    color: $white;
+    padding: 60px 20px;
+    min-height: 151px;
+
+    h6 {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    span {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+
+  .bottom-block {
+    background: $white;
+    padding: 40px 20px;
+    min-height: 195px;
+    color: $text-grey;
+
+    h6 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    span {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 7px;
+      font-weight: 300;
+    }
+
+  }
+}
+

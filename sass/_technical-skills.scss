@@ -1,0 +1,23 @@
+.technical-skills {
+  .container {
+    background: $white;
+    padding: 25px;
+  }
+  color: $black;
+  font-size: 14px;
+  
+}
+
+.meter {
+  height: 6px;
+  background: $progress-bar;
+  margin: 12px 0 10px;
+
+  > span {
+    background: $main-blue;
+    height: 100%;
+    display: block;
+  }
+}
+
+
