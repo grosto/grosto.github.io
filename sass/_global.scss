@@ -22,7 +22,8 @@ section {
 
 a {
   transition: 0.5s;
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: none;
   }
 }
