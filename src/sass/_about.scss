@@ -48,7 +48,7 @@
   display: table-row;
 
   .text-bold {
-    color: $blackish;
+    color: $light-black;
   }
 
   span {
@@ -60,8 +60,6 @@
 .social {
   background: $main-blue;
   text-align: center;
-  margin-right: -15px;
-  margin-left: -15px;
   font-size: 20px;
 
   ul {

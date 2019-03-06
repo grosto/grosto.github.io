@@ -1,6 +1,6 @@
 footer {
   margin-top: 30px;
-  background: $blackish;
+  background: $light-black;
   text-align: center;
   padding: 80px 0;
 }
@@ -15,7 +15,7 @@ footer {
 
   &:hover,
   &:focus {
-    color: $blackish;
+    color: $light-black;
     background: $white;
     outline: none;
   }
