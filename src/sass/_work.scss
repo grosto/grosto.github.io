@@ -2,6 +2,7 @@
   padding-top: 30px;
   margin: 0 auto;
   position: relative;
+  padding-right: 13px;
 
   &::before {
     content: "";
@@ -28,7 +29,12 @@
   margin-left: 70px;
   background: $white;
   border-radius: 0.25em;
-  padding: 30px;;
+  padding: 30px;
+
+  .company-name {
+    display: flex;
+    flex-direction: column;
+  }
 
   &::before {
     content: "";
@@ -50,7 +56,6 @@
   }
 
   .date {
-    display: block;
     color: $light-black;
     font-size: 14px;
     font-weight: 700;
@@ -77,5 +82,17 @@
   top: 22px;
   left: 13px;
   border-radius: 50%;
+
+}
+@media (min-width: 768px) {
+  .timeline-block-content {
+    .company-name {
+      flex-direction: row;
+      align-items: baseline;
+      & > h5 {
+        flex: 1
+      }
+    }
+  }
 
 }

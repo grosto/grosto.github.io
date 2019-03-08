@@ -7,25 +7,20 @@ body {
   background: $light-grey;
 }
 
+body {
+  line-height: 1.42857143;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0,
+}
+
 h1 {
   margin: 0;
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 48px;
-}
-
-section {
-  margin: 0 0 130px;
-}
-
-a {
-  transition: 0.5s;
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
 }
 
 h2 {
@@ -36,10 +31,55 @@ h2 {
   color: $light-black;
 }
 
-.img-responsive {
-  display: inline-block;
+h3 {
+  font-size: 28px;
+}
+
+section {
+  margin: 0 0 130px;
+}
+
+a {
+  transition: 0.3s;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 .text-bold {
   font-weight: 700;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  section {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }

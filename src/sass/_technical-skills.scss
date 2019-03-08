@@ -1,5 +1,5 @@
 .technical-skills {
-  .container {
+  .skills {
     background: $white;
     padding: 25px;
   }
@@ -19,5 +19,16 @@
     display: block;
   }
 }
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    .single-skill {
+      flex: 1 1 0;
+      padding: 0 15px;
+    }
+  }
+}
+
 
 
