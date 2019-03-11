@@ -18,5 +18,5 @@ Font.register(`${__dirname}/fonts/OpenSans-Italic.ttf`, {
 
 ReactPDF.render(
   <App />,
-  `${path.resolve(__dirname, '../dist')}/GiorgiRostomashviliResume.pdf`
+  `${path.resolve(__dirname, '../website')}/GiorgiRostomashviliResume.pdf`
 );

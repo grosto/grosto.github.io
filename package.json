@@ -7,13 +7,14 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel serve website/index.html",
-    "build": "parcel build website/index.html --no-source-maps",
+    "build:website": "parcel build website/index.html --no-source-maps", 
+    "build": "yarn build:resume && yarn build:website",
     "lint:resume": "eslint ./resume",
     "lint:website": "eslint ./website",
     "start:resume": "nodemon --exec babel-node ./resume/index",
     "build:resume": "babel-node ./resume/index",
     "lint": "yarn lint:website && yarn lint:resume",
-    "deploy": "rm -rf ./dist && yarn build:resume && yarn build && gh-pages -d dist -b master"
+    "deploy": "rm -rf ./dist && yarn build && gh-pages -d dist -b master"
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
