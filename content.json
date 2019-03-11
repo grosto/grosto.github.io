@@ -1,0 +1,43 @@
+{
+  "experiences": [
+    {
+      "position": "Full-Stack Developer",
+      "company": "DeltaLedger",
+      "period": "August 2017 - Present",
+      "description":
+        "DeltaLedger is a Belgium based company, for which I am developing various blockchain-based applications. Other than standard web stack(React, Nodejs, MongoDB), I specialized in Ethereum’s Solidity language and worked on several projects using React Native."
+    },
+    {
+      "position": "Full-Stack Developer",
+      "company": "Continental City Loan",
+      "period": "August 2016 - April 2017",
+      "description": "Continental City Loan is a leading microfinance company in Georgia, which is also present in Ukraine and Kazakhstan. I built three fully responsive websites for the company. Also worked on their core software rewrite."
+    },
+    {
+      "position": "Full-Stack Developer",
+      "company": "Palatine Analytics",
+      "period": "May 2016 - September 2017",
+      "description": "Palatine Analytics is a Harvard based startup, which created an advanced employee evaluation software that enables companies to improve performance reviews. I designed and built the company's public website. The codebase is written in the latest Javascript(ES6) using a full-stack Meteor framework."
+    },
+    {
+      "position": "Front-End Developer",
+      "company": "AUBG Spaces",
+      "period": "February 2016 - May 2016",
+      "description": "AUBG Spaces was an university student club, which was providing Web Development services and consultations to NGOs and other student organizations. Our main stack was Ruby on Rails and AngularJS, with me mostly working on the Frontend side."
+    }
+  ],
+  "skills": [
+    { "name": "Javascript(ES7+)", "percentage": 95 },
+    { "name": "React/Redux", "percentage": 95 },
+    { "name": "Node.js/Express", "percentage": 85 },
+    { "name": "React Native", "percentage": 70 },
+    { "name": "DevOps (AWS/Docker)", "percentage": 50 },
+    { "name": "HTML5/CSS3", "percentage": 90 },
+    { "name": "Sass", "percentage": 80 },
+    { "name": "Tooling (Parcel/Babel)", "percentage": 65 },
+    { "name": "MongoDB", "percentage": 70 },
+    { "name": "Git and Github", "percentage": 80 },
+    { "name": "Haskell", "percentage": 35 },
+    { "name": "Python3", "percentage": 30 }
+  ]
+}
