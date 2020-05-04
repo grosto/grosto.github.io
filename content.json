@@ -2,10 +2,15 @@
   "experiences": [
     {
       "position": "Full-Stack Developer",
+      "company": "In The Pocket",
+      "period": "June 2019 - Present",
+      "description": "In The Pocket is a leading digital studio in Belgium. I am working on products for several popular Belgian apps and websites with eclectic tech stack. Throughout my time here I have created products with Nodejs, React, React Native, Go, .NET, Python, Docker, and Kubernetes."
+    },
+    {
+      "position": "Full-Stack Developer",
       "company": "Sofitto",
-      "period": "April 2017 - Present",
-      "description":
-        "Sofitto is a Belgium based company, for which I am developing various blockchain-based applications. Other than standard web stack(React, Nodejs, MongoDB), I specialized in Ethereum’s Solidity language and worked on several projects using React Native."
+      "period": "April 2017 - May 2019",
+      "description": "Sofitto is a Belgium based company, for which I was developing various blockchain-based applications. Other than standard web stack(React, Nodejs, MongoDB), I specialized in Ethereum’s Solidity language and worked on several projects using React Native."
     },
     {
       "position": "Full-Stack Developer",
@@ -27,17 +32,17 @@
     }
   ],
   "skills": [
-    { "name": "Javascript(ES7+)", "percentage": 95 },
-    { "name": "React/Redux", "percentage": 95 },
+    { "name": "Javascript(ES7+)/Typescript", "percentage": 95 },
     { "name": "Node.js/Express", "percentage": 85 },
-    { "name": "React Native", "percentage": 70 },
-    { "name": "DevOps (AWS/Docker)", "percentage": 50 },
-    { "name": "HTML5/CSS3", "percentage": 90 },
-    { "name": "Sass", "percentage": 80 },
+    { "name": "React/React Native", "percentage": 95 },
+    { "name": "GraphQL", "percentage": 70 },
+    { "name": "DevOps (AWS/Docker/k8s)", "percentage": 60 },
+    { "name": "HTML5/CSS3/Sass", "percentage": 90 },
     { "name": "Tooling (Parcel/Babel)", "percentage": 65 },
-    { "name": "MongoDB", "percentage": 70 },
+    { "name": "MongoDB/SQL", "percentage": 70 },
     { "name": "Git and Github", "percentage": 80 },
-    { "name": "Haskell", "percentage": 35 },
+    { "name": "Rust", "percentage": 30 },
+    { "name": "Haskell", "percentage": 40 },
     { "name": "Python3", "percentage": 30 }
   ]
 }
