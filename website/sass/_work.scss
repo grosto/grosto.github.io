@@ -1,3 +1,7 @@
+.work-exprience {
+  padding-bottom: 50px;
+}
+
 .timeline {
   padding-top: 30px;
   margin: 0 auto;
@@ -82,7 +86,6 @@
   top: 22px;
   left: 13px;
   border-radius: 50%;
-
 }
 @media (min-width: 768px) {
   .timeline-block-content {
@@ -90,9 +93,8 @@
       flex-direction: row;
       align-items: baseline;
       & > h5 {
-        flex: 1
+        flex: 1;
       }
     }
   }
-
 }
