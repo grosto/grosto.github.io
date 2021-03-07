@@ -32,17 +32,24 @@
     }
   ],
   "skills": [
-    { "name": "Javascript(ES7+)/Typescript", "percentage": 95 },
-    { "name": "Node.js/Express", "percentage": 85 },
-    { "name": "React/React Native", "percentage": 95 },
-    { "name": "GraphQL", "percentage": 70 },
-    { "name": "DevOps (AWS/Docker/k8s)", "percentage": 60 },
-    { "name": "HTML5/CSS3/Sass", "percentage": 90 },
-    { "name": "Tooling (Parcel/Babel)", "percentage": 65 },
-    { "name": "MongoDB/SQL", "percentage": 70 },
-    { "name": "Git and Github", "percentage": 80 },
-    { "name": "Rust", "percentage": 30 },
-    { "name": "Haskell", "percentage": 40 },
-    { "name": "Python3", "percentage": 30 }
+    { "name": "Typescript/Javascript", "logo": "./ts-logo.png" },
+    {
+      "name": "Node.js",
+      "logo": "./node-logo.png"
+    },
+    { "name": "React/React Native", "logo": "./react-logo.png" },
+    { "name": "GraphQL", "logo": "./graphql-logo.png" },
+    { "name": "GCP", "logo": "./gcp-logo.png" },
+    { "name": "k8s/Docker", "logo": "./kubernetes-logo.png" },
+    { "name": "AWS", "logo": "./aws-logo.png" },
+    { "name": "Jest", "logo": "./jest-logo.png" },
+    { "name": "Babel", "logo": "./babel-logo.png" },
+    { "name": "Parcel", "logo": "./parcel-logo.png" },
+    { "name": "(Postgre)SQL", "logo": "./postgresql-logo.png" },
+    { "name": "MongoDB", "logo": "./mongodb-logo.png" },
+    { "name": "Fastify/Express", "logo": "./fastify-logo.png" },
+    { "name": "Git(Hub)", "logo": "./git-logo.png" },
+    { "name": "Rust", "logo": "./rust-logo.png" },
+    { "name": "Haskell", "logo": "./haskell-logo.png" }
   ]
 }
